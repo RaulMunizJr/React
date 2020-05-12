@@ -88,3 +88,17 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+---------------Inline If-Else with Conditional Operator---------------:
+```
+render() {                                                                  render() {
+  const isLoggedIn = this.state.isLoggedIn;                                     const isLoggedIn = this.state.isLoggedIn;
+  return (                                                                      return (
+    <div>                                                                           <div>
+      The user is <b>{isLoggedIn ? 'currently' : 'not'}</b> logged in.                  {isLoggedIn
+    </div>                                                                                  ? <LogoutButton onClick={this.handleLogoutClick} />
+  );                                                                                        : <LoginButton onClick={this.handleLoginClick} />
+}                                                                                       }                                         
+                                                                                    </div>                                     
+                                                                                );
+                                                                            }                                                                          
+```
