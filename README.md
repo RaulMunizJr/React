@@ -4,7 +4,8 @@ Useful References: https://reactjs.org/docs/getting-started.html
 
 ---------------Notes---------------:
 - Routing
-> In order to have user navigate between pages in terminal type: 
+> In order to have user navigate between pages in terminal type:
+
 > npm install --save react-router-dom
 
 ---------------Props---------------:
