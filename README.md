@@ -2,6 +2,11 @@
 
 Useful References: https://reactjs.org/docs/getting-started.html
 
+---------------Notes---------------:
+- Routing
+> In order to have user navigate between pages in terminal type: 
+> npm install --save react-router-dom
+
 ---------------Props---------------:
 ```
 "Props is short for properties and they are used to pass data between React components. 
