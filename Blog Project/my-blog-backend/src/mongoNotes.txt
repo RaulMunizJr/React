@@ -1,0 +1,18 @@
+1. install homebrew (preferred)
+2. install mongodb community edition from site
+3. db.articles.insert([{
+    name: 'learn-react',
+    upvotes: 0,
+    comments: [],
+    }, {
+    name: 'learn-node',
+    upvotes: 0,
+    comments: [],
+    }, {
+    name: 'my-thoughts-on-resumes',
+    upvotes: 0,
+    comments: [],
+}])
+4. db.articles.find({}) //to see list of articles
+   db.articles.find({}).pretty() //to see in list view
+   db.articles.find({name: 'learn-react' }).pretty() //find selected article
